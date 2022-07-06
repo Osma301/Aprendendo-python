@@ -157,19 +157,19 @@
 
 # Onibus
 # Entrada de dados
-from sys import dllhandle
+# from sys import dllhandle
 
 
-hora_saida = int(input("Digite a hora de saída: "))
-minuto_saida = int(input("Digite o minuto de saída: "))
-hora_chegada = minuto_saida + 15
-print(
-    f"Horario de saida{hora_saida}:{minuto_saida} / Horario de chegada: {hora_saida}:{hora_chegada}")
+# hora_saida = int(input("Digite a hora de saída: "))
+# minuto_saida = int(input("Digite o minuto de saída: "))
+# hora_chegada = minuto_saida + 15
+# print(
+#     f"Horario de saida{hora_saida}:{minuto_saida} / Horario de chegada: {hora_saida}:{hora_chegada}")
 
-if hora_chegada > 59:
-    hora_chegada = hora_chegada - 59
-    hora_saida = hora_saida + 1
+# if hora_chegada > 59:
+#     hora_chegada = hora_chegada - 59
+#     hora_saida = hora_saida + 1
 
-    print(
-        f"Hora de saida: {hora_saida}:{minuto_saida} , horario de chegada: {hora_saida}:{hora_chegada}")
-# eu não fiz nada en esta alteração
+#     print(
+#         f"Hora de saida: {hora_saida}:{minuto_saida} , horario de chegada: {hora_saida}:{hora_chegada}")
+# eu não fiz nada en esta alterar
